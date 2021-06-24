@@ -59,7 +59,7 @@ VOLUME [ \
     "/opt/ros/melodic/lib/gazebo_ros", \
     "/opt/ros/melodic/lib/python2.7/dist-packages/gazebo_ros", \
     "/opt/ros/melodic/lib/python2.7/dist-packages/gazebo_msgs", \
-    "/opt/ros/melodic/share/tiago_moveit_config/config" \
+    "/opt/ros/melodic/share/tiago_moveit_config" \
     ]
 
 CMD ["/usr/local/bin/supervisord", "-n", "-c", "/etc/supervisor/supervisord.conf"]
