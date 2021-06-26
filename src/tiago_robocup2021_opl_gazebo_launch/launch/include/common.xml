@@ -59,7 +59,7 @@ POSSIBILITY OF SUCH DAMAGE.
   <arg     if="$(arg with_handle)" name="world_suffix3" value="_knob"/>
   <arg name="world_name" default="$(find tmc_wrs_gazebo_worlds)/worlds/wrs2020$(arg world_suffix)$(arg world_suffix2)$(arg world_suffix3).world" />
 
-  <arg name="robot_pos" default="-x -2.1 -y 1.2 -z 0 -Y -1.57 -J torso_lift_joint 0.30 -J arm_1_joint 2.67 -J arm_2_joint 1.0 -J arm_3_joint -1.2 -J arm_4_joint 2.28 -J arm_5_joint 1.49 -J arm_6_joint -0.39 -J arm_7_joint 0.0 -J head_1_joint 0.88 -J head_2_joint -0.48" />
+  <arg name="robot_pos" default="-x -2.1 -y 1.2 -z 0 -Y -1.57 -J torso_lift_joint 0.30 -J arm_1_joint 2.67 -J arm_2_joint 1.0 -J arm_3_joint -1.2 -J arm_4_joint 2.28 -J arm_5_joint 1.49 -J arm_6_joint -0.39 -J arm_7_joint 0.0" />
 
   <param name="/use_sim_time" value="true" />
 
